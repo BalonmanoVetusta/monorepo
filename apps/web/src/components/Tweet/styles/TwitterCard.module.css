@@ -1,0 +1,25 @@
+article.twitterCard {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  width: 100%;
+  height: max-content;
+
+  border-radius: 0.5rem;
+  border: 1pt solid var(--twitter-card-border-color, transparent);
+  background-color: var(--twitter-card-background-color, #666);
+  padding: 0.5rem;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  font-weight: lighter;
+}
+
+article.twitterCard header,
+article.twitterCard footer,
+article.twitterCard main {
+  width: 100%;
+}
+article.twitterCard main {
+  white-space: pre-line;
+}
