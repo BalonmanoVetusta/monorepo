@@ -1,4 +1,4 @@
-import { Close, MenuHamburger } from "components/Icons";
+import { Close, MenuHamburger } from "ui";
 import Link from "next/link";
 import { Fragment, useId, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";

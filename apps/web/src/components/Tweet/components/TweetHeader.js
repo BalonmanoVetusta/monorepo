@@ -1,4 +1,4 @@
-import { TwitterVerified } from "components/Icons";
+import { TwitterVerified } from "ui";
 import { Anchor } from "components/MyLink";
 import Image from "next/image";
 import { twitterHeaderStyle } from "../styles/TwitterHeader.module.css";

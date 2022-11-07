@@ -1,15 +1,10 @@
-import { ArrowUp } from "components/Icons";
 import { MotionLink } from "components/MyLink";
 import PageLayout from "components/PageLayout";
-import {
-  AbonoCarnet,
-  InstagramVetusta,
-  TwitterVetusta,
-} from "components/Vetusta";
+import { motion } from "framer-motion";
 import Link from "next/link";
 import { Fragment } from "react";
-import { motion } from "framer-motion";
 import styled from "styled-components";
+import { AbonoCarnet, ArrowUp, InstagramVetusta, TwitterVetusta } from "ui";
 
 const variants = {
   tap: {

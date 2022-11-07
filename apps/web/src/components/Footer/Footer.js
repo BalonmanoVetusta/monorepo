@@ -1,4 +1,4 @@
-import { TwitterVetusta, InstagramVetusta } from "components/Vetusta";
+import { TwitterVetusta, InstagramVetusta } from "ui";
 import Link from "next/link";
 
 export function Footer() {

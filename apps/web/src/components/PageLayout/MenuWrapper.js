@@ -7,7 +7,7 @@ import {
   MultiAccount,
   Pencil,
   Store,
-} from "components/Icons";
+} from "ui";
 import Menu from "components/Menu";
 
 // const equiposSubmenuLegacy = [

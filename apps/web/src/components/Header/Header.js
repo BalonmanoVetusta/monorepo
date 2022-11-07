@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { LogoVetusta } from "components/Vetusta";
+import { LogoVetusta } from "ui";
 import { motion } from "framer-motion";
 import { header, logo } from "styles/components/Header.module.css";
 import { Fragment } from "react";
