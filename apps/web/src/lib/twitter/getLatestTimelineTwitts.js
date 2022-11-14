@@ -1,8 +1,8 @@
 import {
-  TWITTER_TIMELINE_TWITS,
-  TWITTER_USER_ID,
-  TWITTER_DEFAULT_MAX_RESULTS,
   TWITTER_BASE_API_URL,
+  TWITTER_DEFAULT_MAX_RESULTS,
+  TWITTER_TIMELINE_TWEETS,
+  TWITTER_USER_ID,
 } from "./constants";
 import { mapTwitsResult } from "./mapTwitsResult";
 import { twitterFetch } from "./twitterFetch";
@@ -24,7 +24,7 @@ function getTimeLineApiUrl(
 
 export async function getLatestTimelineTwitts(
   userId = TWITTER_USER_ID,
-  maxResults = TWITTER_TIMELINE_TWITS,
+  maxResults = TWITTER_TIMELINE_TWEETS,
   queryParameters = "exclude=replies,retweets&expansions=author_id,geo.place_id,attachments.media_keys,attachments.poll_ids,entities.mentions.username,referenced_tweets.id.author_id&tweet.fields=id,created_at,text,author_id,attachments,geo,entities,source,lang&user.fields=id,name,username,protected,verified,profile_image_url,url,description,entities&media.fields=media_key,duration_ms,height,preview_image_url,type,url,width,alt_text,variants&place.fields=id,name,place_type,full_name,country,geo&poll.fields=id,options,voting_status,end_datetime"
 ) {
   if (process.env.NODE_ENV === "development") {

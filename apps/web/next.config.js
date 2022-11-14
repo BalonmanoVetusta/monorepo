@@ -2,24 +2,24 @@
 
 const securityHeaders = [
   {
-    key: "X-DNS-Prefetch-Control",
-    value: "on",
+    key: 'X-DNS-Prefetch-Control',
+    value: 'on',
   },
   {
-    key: "X-XSS-Protection",
-    value: "1; mode=block",
+    key: 'X-XSS-Protection',
+    value: '1; mode=block',
   },
   {
-    key: "X-Frame-Options",
-    value: "SAMEORIGIN",
+    key: 'X-Frame-Options',
+    value: 'SAMEORIGIN',
   },
   {
-    key: "X-Content-Type-Options",
-    value: "nosniff",
+    key: 'X-Content-Type-Options',
+    value: 'nosniff',
   },
   {
-    key: "Referrer-Policy",
-    value: "origin-when-cross-origin",
+    key: 'Referrer-Policy',
+    value: 'origin-when-cross-origin',
   },
 ];
 
@@ -28,9 +28,9 @@ const compilerOptions = {
   reactRemoveProperties: true,
 };
 
-if (process.env.NODE_ENV === "production") {
+if (process.env.NODE_ENV === 'production') {
   compilerOptions.removeConsole = {
-    exclude: ["error"],
+    exclude: ['error'],
   };
 }
 
@@ -40,8 +40,11 @@ module.exports = {
   reactStrictMode: true,
   ignoreDuringBuilds: true,
   swcMinify: true,
+  experimental: {
+    transpilePackages: ['@balonmanovetusta/ui'],
+  },
   images: {
-    domains: ["unavatar.io"],
+    domains: ['unavatar.io'],
   },
   onDemandEntries: {
     maxInactiveAge: 5000,
@@ -51,17 +54,17 @@ module.exports = {
     ...compilerOptions,
   },
   i18n: {
-    locales: ["es"],
-    defaultLocale: "es",
+    locales: ['es'],
+    defaultLocale: 'es',
   },
   async headers() {
     return [
       {
         // Apply these headers to all routes in your application.
-        source: "/:path*",
+        source: '/:path*',
         headers: securityHeaders,
       },
     ];
   },
-  pageExtensions: ["page.jsx", "page.js"],
+  pageExtensions: ['page.tsx', 'page.ts'],
 };
