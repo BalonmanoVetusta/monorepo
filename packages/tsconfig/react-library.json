@@ -4,8 +4,15 @@
   "extends": "./base.json",
   "compilerOptions": {
     "jsx": "react-jsx",
-    "lib": ["ES2015"],
+    "lib": [
+      "ES2015"
+    ],
     "module": "ESNext",
-    "target": "es6"
+    "target": "es6",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./typings",
+      "tsconfig/svg.d.ts"
+    ]
   }
 }

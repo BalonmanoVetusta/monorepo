@@ -1,0 +1,94 @@
+{
+  "data": [
+    {
+      "source": "Twitter for iPhone",
+      "id": "1437674253642575875",
+      "attachments": {
+        "media_keys": [
+          "7_1437672640337137664"
+        ]
+      },
+      "text": "\uD83D\uDCA3\uD83D\uDCA5FICHAJE:\n\n¡Ya lo tenemos aquí! \uD83E\uDDC9\uD83C\uDDFA\uD83C\uDDFE\n#BienvenidoMaxi\n\n#SinMiedoALasAlturas https://t.co/tSDQvBM0YF",
+      "created_at": "2021-09-14T07:07:07.000Z",
+      "author_id": "741473570",
+      "entities": {
+        "urls": [
+          {
+            "start": 75,
+            "end": 98,
+            "url": "https://t.co/tSDQvBM0YF",
+            "expanded_url": "https://twitter.com/BM_Vetusta/status/1437674253642575875/video/1",
+            "display_url": "pic.twitter.com/tSDQvBM0YF",
+            "media_key": "7_1437672640337137664"
+          }
+        ],
+        "hashtags": [
+          {
+            "start": 37,
+            "end": 52,
+            "tag": "BienvenidoMaxi"
+          },
+          {
+            "start": 54,
+            "end": 74,
+            "tag": "SinMiedoALasAlturas"
+          }
+        ],
+        "mentions": [
+          {
+            "start": 142,
+            "end": 158,
+            "username": "CPBVentanielles",
+            "id": "1197142068042358785"
+          }
+        ]
+      },
+      "lang": "es"
+    }
+  ],
+  "includes": {
+    "media": [
+      {
+        "preview_image_url": "https://pbs.twimg.com/ext_tw_video_thumb/1437672640337137664/pu/img/bN61Grxp7j-qBB-U.jpg",
+        "height": 720,
+        "variants": [
+          {
+            "bit_rate": 2176000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/ext_tw_video/1437672640337137664/pu/vid/1280x720/1iTN-wQtEW2XQ0kX.mp4?tag=12"
+          },
+          {
+            "bit_rate": 832000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/ext_tw_video/1437672640337137664/pu/vid/640x360/q7Gt4EXd31bB58mA.mp4?tag=12"
+          },
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/ext_tw_video/1437672640337137664/pu/pl/SN2YdYS757QnwJAE.m3u8?tag=12&container=fmp4"
+          },
+          {
+            "bit_rate": 256000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/ext_tw_video/1437672640337137664/pu/vid/480x270/cxCSlQHAQ4SYwf8F.mp4?tag=12"
+          }
+        ],
+        "duration_ms": 48133,
+        "type": "video",
+        "media_key": "7_1437672640337137664",
+        "width": 1280
+      }
+    ],
+    "users": [
+      {
+        "url": "",
+        "username": "BM_Vetusta",
+        "protected": false,
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1531965706287423489/NmtPMYgn_normal.jpg",
+        "name": "Auto-Center Principado BM. Vetusta",
+        "verified": false,
+        "description": "Cuenta de Twitter oficial del Club Balonmano Vetusta. E-mail: balonmanovetusta@gmail.com",
+        "id": "741473570"
+      }
+    ]
+  }
+}

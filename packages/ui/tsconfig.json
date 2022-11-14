@@ -1,5 +1,12 @@
 {
   "extends": "tsconfig/react-library.json",
-  "include": ["."],
-  "exclude": ["dist", "build", "node_modules"]
+  "include": ["src/**/*", "Icons", "index.tsx"],
+  "exclude": ["dist", "build", "node_modules", ".turbo"],
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "paths": {
+    "@balonmanovetusta/ui/*": ["*"],
+    "@balonmanovetusta/ui/**/*": ["**/*"]
+  }
 }

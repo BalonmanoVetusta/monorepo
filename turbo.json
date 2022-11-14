@@ -2,8 +2,29 @@
   "$schema": "https://turbo.build/schema.json",
   "pipeline": {
     "build": {
-      "dependsOn": ["^build"],
-      "outputs": ["dist/**", ".next/**"]
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "dist/**",
+        ".next/**"
+      ]
+    },
+    "web#build": {
+      "dependsOn": [
+        "^build"
+      ],
+      "env": [
+        "DOMAIN",
+        "TWITTER_BEARER_TOKEN",
+        "TWITTER_USER_ID",
+        "TWITTER_USERNAME",
+        "TWITTER_TIMELINE_TWEETS",
+        "TWITTER_BASE_API_URL"
+      ],
+      "outputs": [
+        ".next/**"
+      ]
     },
     "lint": {
       "outputs": []
@@ -11,5 +32,8 @@
     "dev": {
       "cache": false
     }
-  }
+  },
+  "globalEnv": [
+    "NODE_ENV=development"
+  ]
 }

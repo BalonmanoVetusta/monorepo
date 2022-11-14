@@ -1,0 +1,465 @@
+{
+  "data": [
+    {
+      "created_at": "2022-06-03T12:22:55.000Z",
+      "text": "🔥 RENOVACIÓN:\n\n📌 Temporada 2022/23\n\nLuis Bayod 👨🏻👨🏻\n\n🟡 Portero\n⚫️ Cumplirá su 2ª temporada \n\n#SeguimosFozando🐗 https://t.co/yMSUxMf2eD",
+      "source": "Twitter for iPhone",
+      "id": "1532699346524942338",
+      "author_id": "741473570",
+      "entities": {
+        "hashtags": [
+          {
+            "start": 93,
+            "end": 109,
+            "tag": "SeguimosFozando"
+          }
+        ],
+        "annotations": [
+          {
+            "start": 38,
+            "end": 47,
+            "probability": 0.9012,
+            "type": "Person",
+            "normalized_text": "Luis Bayod"
+          }
+        ],
+        "urls": [
+          {
+            "start": 111,
+            "end": 134,
+            "url": "https://t.co/yMSUxMf2eD",
+            "expanded_url": "https://twitter.com/BM_Vetusta/status/1532699346524942338/photo/1",
+            "display_url": "pic.twitter.com/yMSUxMf2eD",
+            "media_key": "3_1532699341269389312"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_1532699341269389312"
+        ]
+      },
+      "lang": "es"
+    },
+    {
+      "created_at": "2022-06-03T06:59:31.000Z",
+      "text": "✍️👨🏻",
+      "source": "Twitter for iPhone",
+      "id": "1532617963479736320",
+      "author_id": "741473570",
+      "lang": "und"
+    },
+    {
+      "created_at": "2022-06-01T11:37:47.000Z",
+      "text": "🔥 RENOVACIÓN:\n\n📌 Temporada 2022/23\n\nKike Fdez. Olmedo 🦘🦘\n\n🟡 Extremo izquierdo\n⚫️ Cumplirá su 2ª temporada \n\n#SeguimosFozando🐗 https://t.co/NNtMd7XbO0",
+      "source": "Twitter for iPhone",
+      "id": "1531963215760003072",
+      "author_id": "741473570",
+      "entities": {
+        "hashtags": [
+          {
+            "start": 108,
+            "end": 124,
+            "tag": "SeguimosFozando"
+          }
+        ],
+        "annotations": [
+          {
+            "start": 38,
+            "end": 46,
+            "probability": 0.9811,
+            "type": "Person",
+            "normalized_text": "Kike Fdez"
+          },
+          {
+            "start": 49,
+            "end": 59,
+            "probability": 0.5106,
+            "type": "Person",
+            "normalized_text": "Olmedo 🦘🦘"
+          }
+        ],
+        "urls": [
+          {
+            "start": 126,
+            "end": 149,
+            "url": "https://t.co/NNtMd7XbO0",
+            "expanded_url": "https://twitter.com/BM_Vetusta/status/1531963215760003072/photo/1",
+            "display_url": "pic.twitter.com/NNtMd7XbO0",
+            "media_key": "3_1531963210542333952"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_1531963210542333952"
+        ]
+      },
+      "lang": "es"
+    },
+    {
+      "created_at": "2022-06-01T06:58:45.000Z",
+      "text": "✍️🦘",
+      "source": "Twitter for iPhone",
+      "id": "1531892995158573057",
+      "author_id": "741473570",
+      "lang": "und"
+    },
+    {
+      "created_at": "2022-05-29T15:02:41.000Z",
+      "text": "¡Enhorabuena @bbaseoviedo! 💙\n\nMerecido ascenso a División de Honor, que pone a Oviedo en la élite del balonmano español. 💪💪",
+      "entities": {
+        "mentions": [
+          {
+            "start": 13,
+            "end": 25,
+            "username": "bbaseoviedo",
+            "id": "856143949"
+          }
+        ],
+        "annotations": [
+          {
+            "start": 80,
+            "end": 85,
+            "probability": 0.4003,
+            "type": "Organization",
+            "normalized_text": "Oviedo"
+          }
+        ]
+      },
+      "source": "Twitter for iPhone",
+      "id": "1530927615967731714",
+      "author_id": "741473570",
+      "lang": "es"
+    },
+    {
+      "created_at": "2022-05-28T10:01:08.000Z",
+      "text": "Nuestros equipos de escuelas ya se encuentran en #Leon donde se enfrentarán durante el día de hoy al @ADEMARLEON \n\n@CpGermanfe \n@CPVeneranda \n@CPBVentanielles https://t.co/0FGHezISuJ",
+      "entities": {
+        "mentions": [
+          {
+            "start": 101,
+            "end": 112,
+            "username": "ADEMARLEON",
+            "id": "191774543"
+          },
+          {
+            "start": 115,
+            "end": 126,
+            "username": "CpGermanfe",
+            "id": "1061172872373301248"
+          },
+          {
+            "start": 128,
+            "end": 140,
+            "username": "CPVeneranda",
+            "id": "254819888"
+          },
+          {
+            "start": 142,
+            "end": 158,
+            "username": "CPBVentanielles",
+            "id": "1197142068042358785"
+          }
+        ],
+        "hashtags": [
+          {
+            "start": 49,
+            "end": 54,
+            "tag": "Leon"
+          }
+        ],
+        "urls": [
+          {
+            "start": 159,
+            "end": 182,
+            "url": "https://t.co/0FGHezISuJ",
+            "expanded_url": "https://twitter.com/BM_Vetusta/status/1530489339091853312/photo/1",
+            "display_url": "pic.twitter.com/0FGHezISuJ",
+            "media_key": "3_1530489320167161856"
+          }
+        ]
+      },
+      "source": "Twitter for iPhone",
+      "id": "1530489339091853312",
+      "author_id": "741473570",
+      "attachments": {
+        "media_keys": [
+          "3_1530489320167161856"
+        ]
+      },
+      "lang": "es"
+    },
+    {
+      "created_at": "2022-05-27T11:55:39.000Z",
+      "text": "🔥 RENOVACIÓN:\n\n📌 Temporada 2022/23\n\nDani Arias 🚀🚀\n\n🟡 Extremo derecho \n⚫️ Cumplirá su 2ª temporada \n\n#SeguimosFozando🐗 https://t.co/4NzMqmQL8W",
+      "source": "Twitter for iPhone",
+      "id": "1530155769571815425",
+      "author_id": "741473570",
+      "entities": {
+        "hashtags": [
+          {
+            "start": 100,
+            "end": 116,
+            "tag": "SeguimosFozando"
+          }
+        ],
+        "annotations": [
+          {
+            "start": 38,
+            "end": 47,
+            "probability": 0.988,
+            "type": "Person",
+            "normalized_text": "Dani Arias"
+          }
+        ],
+        "urls": [
+          {
+            "start": 118,
+            "end": 141,
+            "url": "https://t.co/4NzMqmQL8W",
+            "expanded_url": "https://twitter.com/BM_Vetusta/status/1530155769571815425/photo/1",
+            "display_url": "pic.twitter.com/4NzMqmQL8W",
+            "media_key": "3_1530155760289734656"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_1530155760289734656"
+        ]
+      },
+      "lang": "es"
+    },
+    {
+      "created_at": "2022-05-27T07:08:22.000Z",
+      "text": "✍️🚀",
+      "source": "Twitter for iPhone",
+      "id": "1530083475465850880",
+      "author_id": "741473570",
+      "lang": "und"
+    },
+    {
+      "created_at": "2022-05-23T11:47:45.000Z",
+      "text": "🔥 RENOVACIÓN:\n\n📌 Temporada 2022/23\n\nPablo Fdez. Granda 🌪🌪\n\n🟡 Lateral derecho \n⚫️ Cumplirá su 4ª temporada \n\n#SeguimosFozando🐗 https://t.co/OhgTx4b7bt",
+      "source": "Twitter for iPhone",
+      "id": "1528704233683435520",
+      "author_id": "741473570",
+      "entities": {
+        "hashtags": [
+          {
+            "start": 108,
+            "end": 124,
+            "tag": "SeguimosFozando"
+          }
+        ],
+        "annotations": [
+          {
+            "start": 38,
+            "end": 47,
+            "probability": 0.9559,
+            "type": "Person",
+            "normalized_text": "Pablo Fdez"
+          }
+        ],
+        "urls": [
+          {
+            "start": 126,
+            "end": 149,
+            "url": "https://t.co/OhgTx4b7bt",
+            "expanded_url": "https://twitter.com/BM_Vetusta/status/1528704233683435520/photo/1",
+            "display_url": "pic.twitter.com/OhgTx4b7bt",
+            "media_key": "3_1528704229275312128"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_1528704229275312128"
+        ]
+      },
+      "lang": "es"
+    },
+    {
+      "created_at": "2022-05-23T09:44:35.000Z",
+      "text": "✍️🌪",
+      "source": "Twitter for iPhone",
+      "id": "1528673236984152064",
+      "author_id": "741473570",
+      "lang": "und"
+    }
+  ],
+  "includes": {
+    "media": [
+      {
+        "width": 1080,
+        "url": "https://pbs.twimg.com/media/FUU97ifWUAA2sUN.jpg",
+        "type": "photo",
+        "height": 1080,
+        "media_key": "3_1532699341269389312"
+      },
+      {
+        "width": 1080,
+        "url": "https://pbs.twimg.com/media/FUKgbF1XwAAg1Dd.jpg",
+        "type": "photo",
+        "height": 1080,
+        "media_key": "3_1531963210542333952"
+      },
+      {
+        "width": 2048,
+        "url": "https://pbs.twimg.com/media/FT1j7YUXwAA89wx.jpg",
+        "type": "photo",
+        "height": 946,
+        "media_key": "3_1530489320167161856"
+      },
+      {
+        "width": 1080,
+        "url": "https://pbs.twimg.com/media/FTw0jo8WYAAX_jm.jpg",
+        "type": "photo",
+        "height": 1080,
+        "media_key": "3_1530155760289734656"
+      },
+      {
+        "width": 1080,
+        "url": "https://pbs.twimg.com/media/FTcMZaiXoAACbRr.jpg",
+        "type": "photo",
+        "height": 1080,
+        "media_key": "3_1528704229275312128"
+      }
+    ],
+    "users": [
+      {
+        "url": "",
+        "description": "Cuenta de Twitter oficial del Club Balonmano Vetusta. E-mail: balonmanovetusta@gmail.com",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1531965706287423489/NmtPMYgn_normal.jpg",
+        "id": "741473570",
+        "name": "Auto-Center Principado BM. Vetusta",
+        "protected": false,
+        "username": "BM_Vetusta",
+        "verified": false
+      },
+      {
+        "url": "https://t.co/c0G12U4ih2",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/c0G12U4ih2",
+                "expanded_url": "http://www.baseoviedo.com",
+                "display_url": "baseoviedo.com"
+              }
+            ]
+          }
+        },
+        "description": "",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1439675476847570952/x5-J1Rpz_normal.jpg",
+        "id": "856143949",
+        "name": "Unión Financiera Balonmano Base Oviedo",
+        "protected": false,
+        "username": "bbaseoviedo",
+        "verified": false
+      },
+      {
+        "url": "https://t.co/zGGaAoJZ5B",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/zGGaAoJZ5B",
+                "expanded_url": "http://www.ademar.com",
+                "display_url": "ademar.com"
+              }
+            ]
+          },
+          "description": {
+            "hashtags": [
+              {
+                "start": 79,
+                "end": 92,
+                "tag": "DameUnAdemar"
+              },
+              {
+                "start": 93,
+                "end": 107,
+                "tag": "AdemarALuchar"
+              }
+            ]
+          }
+        },
+        "description": "🦁 Cuenta oficial Club Balonmano Ademar León 🤾‍♂️ Toda la actualidad del equipo #DameUnAdemar #AdemarALuchar",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1501857088200482817/6RqIE0kV_normal.jpg",
+        "id": "191774543",
+        "name": "//Abanca Ademar León",
+        "protected": false,
+        "username": "ADEMARLEON",
+        "verified": true
+      },
+      {
+        "url": "",
+        "description": "",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1061173458808250368/1P-lLA9__normal.jpg",
+        "id": "1061172872373301248",
+        "name": "CP Germán Fernández Ramos",
+        "protected": false,
+        "username": "CpGermanfe",
+        "verified": false
+      },
+      {
+        "url": "https://t.co/aMS9pyN6hN",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/aMS9pyN6hN",
+                "expanded_url": "http://www.cpvenerandamanzano.es/",
+                "display_url": "cpvenerandamanzano.es"
+              }
+            ]
+          }
+        },
+        "description": "",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1006458685735034880/yrwSXPlQ_normal.jpg",
+        "id": "254819888",
+        "name": "C.P. Veneranda Manzano",
+        "protected": false,
+        "username": "CPVeneranda",
+        "verified": false
+      },
+      {
+        "url": "https://t.co/LhNL5TPQeq",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/LhNL5TPQeq",
+                "expanded_url": "http://alojaweb.educastur.es/web/cpbventanielles",
+                "display_url": "alojaweb.educastur.es/web/cpbventani…"
+              }
+            ]
+          }
+        },
+        "description": "Colegio Público Bilingüe de Oviedo. Siempre buscando lo mejor para nuestra comunidad educativa.",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1197147796660539395/9_p0zaWP_normal.jpg",
+        "id": "1197142068042358785",
+        "name": "CPBilingüe Ventanielles",
+        "protected": false,
+        "username": "CPBVentanielles",
+        "verified": false
+      }
+    ]
+  },
+  "meta": {
+    "next_token": "7140dibdnow9c7btw421ebrjk2n2dvrjvv0kiaypiy2b8",
+    "result_count": 10,
+    "newest_id": "1532699346524942338",
+    "oldest_id": "1528673236984152064"
+  }
+}
