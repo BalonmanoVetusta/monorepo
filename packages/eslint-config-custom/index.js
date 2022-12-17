@@ -3,20 +3,15 @@ module.exports = {
     browser: true,
     es2021: true,
     node: true,
-    jest: true
+    jest: true,
   },
-  extends: [
-    'next',
-    'plugin:react/recommended',
-    'turbo',
-    'prettier'
-  ],
+  extends: ['next', 'plugin:react/recommended', 'turbo', 'prettier'],
   parserOptions: {
     ecmaFeatures: {
-      jsx: true
+      jsx: true,
     },
     ecmaVersion: 13,
-    sourceType: 'module'
+    sourceType: 'module',
   },
   plugins: ['react', 'react-hooks'],
   rules: {
@@ -39,7 +34,7 @@ module.exports = {
       'error',
       {
         ignore: ['jsx', 'global'],
-      }
-    ]
-  }
+      },
+    ],
+  },
 };
