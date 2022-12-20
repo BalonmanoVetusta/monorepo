@@ -10,15 +10,17 @@
     "build": "turbo run build",
     "dev": "NODE_ENV=development turbo run dev --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md,mdx,astro}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md,mdx,astro}\"",
+    "test": "turbo run test --concurrency=1"
   },
   "devDependencies": {
     "eslint-config-custom": "workspace:*",
-    "prettier": "2.7.1",
+    "prettier": "2.8.1",
     "turbo": "latest"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=18.0.0",
+    "bun": ">=0.3.0"
   },
-  "packageManager": "pnpm@7.14.2"
+  "packageManager": "pnpm@7.18.2"
 }

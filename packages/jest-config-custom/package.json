@@ -1,0 +1,14 @@
+{
+  "name": "jest-config-custom",
+  "version": "0.0.0",
+  "main": "index.js",
+  "type": "module",
+  "description": "Configuration for jest",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "4.9.4"
+  }
+}
