@@ -36,6 +36,12 @@
       "outputs": [
         "coverage/**"
       ]
+    },
+    "test:watch": {
+      "cache": false
+    },
+    "deploy": {
+      "dependsOn": ["build", "lint", "test"]
     }
   },
   "globalEnv": [

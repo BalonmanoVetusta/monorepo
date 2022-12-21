@@ -10,8 +10,9 @@
     "build": "turbo run build",
     "dev": "NODE_ENV=development turbo run dev --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md,mdx,astro}\"",
-    "test": "turbo run test --concurrency=1"
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx,astro}\"",
+    "test": "turbo run test --concurrency=1",
+    "test:watch": "turbo run test --concurrency=1 --watchAll"
   },
   "devDependencies": {
     "eslint-config-custom": "workspace:*",
@@ -22,5 +23,10 @@
     "node": ">=18.0.0",
     "bun": ">=0.3.0"
   },
-  "packageManager": "pnpm@7.18.2"
+  "packageManager": "pnpm@7.18.2",
+  "prettier": {
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true
+  }
 }
