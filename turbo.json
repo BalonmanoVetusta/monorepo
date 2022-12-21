@@ -33,6 +33,7 @@
       "cache": false
     },
     "test": {
+      "cache": false,
       "outputs": [
         "coverage/**"
       ]
@@ -41,7 +42,11 @@
       "cache": false
     },
     "deploy": {
-      "dependsOn": ["build", "lint", "test"]
+      "dependsOn": [
+        "build",
+        "lint",
+        "test"
+      ]
     }
   },
   "globalEnv": [
