@@ -1,4 +1,4 @@
-import { RFEBM_AMBITO_ZERO, RFEBM_BASE_URL } from 'constants';
+import { RFEBM_AMBITO_ZERO, RFEBM_BASE_URL } from 'global-values';
 import { rfebmUrlCreator } from './rfebm-url-creator';
 
 export function getUrlFederationReferees(federationId: number) {

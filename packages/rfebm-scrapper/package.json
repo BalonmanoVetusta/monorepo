@@ -8,7 +8,8 @@
   "scripts": {
     "test": "jest",
     "build": "tsup",
-    "ts-node": "node --experimental-specifier-resolution=node --loader ts-node/esm ./src/internal.ts"
+    "ts-node": "node -r tsconfig-paths/register --experimental-specifier-resolution=node --loader ts-node/esm ./src/internal.ts",
+    "check": "bun run ./src/internal.ts"
   },
   "keywords": [
     "handball",
@@ -26,12 +27,13 @@
   "author": "Balonmano Vetusta",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "18.11.17",
-    "bun-types": "0.4.0",
+    "tsconfig": "workspace:*",
     "eslint-config-custom": "workspace:*",
     "jest-config-custom": "workspace:*",
+    "@types/node": "18.11.17",
+    "bun-types": "0.4.0",
     "ts-node": "10.9.1",
-    "tsconfig": "workspace:*",
+    "tsconfig-paths": "4.1.2",
     "tsup": "6.5.0",
     "typescript": "4.9.4"
   },

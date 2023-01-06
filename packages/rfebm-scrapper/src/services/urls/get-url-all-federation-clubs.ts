@@ -2,7 +2,7 @@ import {
   RFEBM_AMBITO_ONE,
   RFEBM_BASE_URL,
   RFEBM_COURT_COMPETITIONS_SELECTION,
-} from '../../constants';
+} from 'global-values';
 import { rfebmUrlCreator } from './rfebm-url-creator';
 
 export function getUrlAllFederationClubs(federationId: number) {

@@ -1,4 +1,4 @@
-import { ISQUAD_HANDBALL, ISQUAD_SEC, ISQUAD_TOKEN } from 'constants';
+import { ISQUAD_HANDBALL, ISQUAD_SEC, ISQUAD_TOKEN } from 'global-values';
 import { rfebmUrlCreator } from './rfebm-url-creator';
 
 export function getUrlMatchTeamStats(matchId: number, teamId: number) {

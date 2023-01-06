@@ -1,4 +1,4 @@
-import { RFEBM_BASE_URL } from 'constants';
+import { RFEBM_BASE_URL } from 'global-values';
 import { rfebmUrlCreator } from './rfebm-url-creator';
 
 type TeamsPageParams = {

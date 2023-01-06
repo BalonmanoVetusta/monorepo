@@ -1,4 +1,4 @@
-import { RFEBM_BASE_URL } from "../constants/index.js";
+import { RFEBM_BASE_URL } from "../global-values/index.js";
 
 function selectOptions(document, querySelector) {
   const select = document.querySelector(querySelector).children;
