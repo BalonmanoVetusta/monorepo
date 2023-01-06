@@ -1,0 +1,14 @@
+{
+  "extends": "tsconfig/base.json",
+  "include": ["src/**/*"],
+  "exclude": ["dist", "build", "node_modules", ".turbo"],
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "types": ["node", "bun-types"],
+    "lib": ["ESNext", "dom"]
+  }
+}

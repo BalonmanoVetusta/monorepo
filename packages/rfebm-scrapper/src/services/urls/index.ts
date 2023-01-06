@@ -1,0 +1,16 @@
+export { getUrlAllFederationClubs } from './get-url-all-federation-clubs';
+export { getUrlAllFederationSportscenters } from './get-url-all-federation-sportscenters';
+export { getUrlAllFederationTeams } from './get-url-all-federation-teams';
+export { getUrlCategoryPage } from './get-url-category-page';
+export { getUrlClassificationsPage } from './get-url-classifications-page';
+export { getUrlFederationAllMatchesCalendar } from './get-url-federation-all-matches-calendar';
+export { getUrlFederationPage } from './get-url-federation-page';
+export { getUrlFederationReferees } from './get-url-federation-referees';
+export { getUrlLiveReport } from './get-url-live-report';
+export { getUrlMatchInformationPage } from './get-url-match-information-page';
+export { getUrlMatchReportPDF } from './get-url-match-report-pdf';
+export { getUrlMatchTeamStats } from './get-url-match-team-stats';
+export { getUrlSeasonPage } from './get-url-season-page';
+export { getUrlStatsPDFShort } from './get-url-stats-pdf-short';
+export { getUrlSubfederationPage } from './get-url-subfederation-page';
+export { getUrlTeamPage } from './get-url-team-page';
