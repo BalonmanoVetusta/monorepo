@@ -12,9 +12,9 @@ function selectOptions(document, querySelector) {
   );
   const optionsArray = Array.from(options);
   const mappedOptions = optionsArray.map((option) => [
-    option.value.toString(),
+    option.getAttribute("value"),
     {
-      id: Number(option.value),
+      id: Number(option.getAttribute("value")),
       label: option.textContent
     }
   ]);

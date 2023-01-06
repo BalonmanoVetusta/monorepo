@@ -1,9 +1,12 @@
+import { HTMLOptionElement, HTMLSelectElement } from "linkedom";
+import { HTMLDocument } from "linkedom/types/html/document";
+
 export declare type SelectOptionsValue = { id: number; label: string };
 export declare type SelectOptions = { [key: string]: SelectOptionsValue };
 
 // This parse a select input element to get label and value
 export function selectOptions(
-  document: Document,
+  document: HTMLDocument,
   querySelector: string
 ): SelectOptions {
   const { options } = document.querySelector(
@@ -12,9 +15,9 @@ export function selectOptions(
 
   const optionsArray = Array.from(options);
   const mappedOptions = optionsArray.map((option: HTMLOptionElement) => [
-    option.value.toString(),
+    option.getAttribute("value"),
     {
-      id: Number(option.value),
+      id: Number(option.getAttribute("value")),
       label: option.textContent,
     } as SelectOptionsValue,
   ]);
